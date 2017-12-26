@@ -1,5 +1,5 @@
 package org.humanoid;
 
-public abstract class Strategy {
+public class Strategy {
 
 }

@@ -1,5 +1,9 @@
 package org.humanoid;
 
-public abstract class Behavior {
+public class Behavior {
+	public Relation doB() {
+		
+		return new Relation();
+	}
 
 }

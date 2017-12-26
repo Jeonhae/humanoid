@@ -1,6 +1,6 @@
 package org.humanoid;
 
-public abstract class Desire {
+public class Desire {
 	private int priority;
 	public void setPriority(int priority) {
 		this.priority=priority;
@@ -10,7 +10,13 @@ public abstract class Desire {
 	}
 	
 	
-	public abstract Good toRelease(Resource res);
+	public Good releaseMyself() {
+		return burn(new Behavior().doB().pressureOnRelation());
+	};
+	
+	private Good burn(Resource rs) {	
+		return new Good();
+	}
 	
 	
 

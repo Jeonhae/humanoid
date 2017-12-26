@@ -1,5 +1,8 @@
 package org.humanoid;
 
-public abstract class Relation {
+public class Relation {
+	public Resource pressureOnRelation() {
+		return new Resource();
+	}
 
 }

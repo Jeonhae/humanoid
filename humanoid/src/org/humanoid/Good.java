@@ -1,5 +1,8 @@
 package org.humanoid;
 
-public abstract class Good {
-
+public class Good {
+	public void Hi() {
+		System.out.println("Im good!");
+	}
+	
 }
